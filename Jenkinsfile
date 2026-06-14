@@ -3,16 +3,10 @@ pipeline {
 
     tools {
         maven 'Maven'
-        jdk 'JDK17'
+        jdk 'JDK25'
     }
 
     stages {
-
-        stage('Checkout') {
-            steps {
-                git 'https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git'
-            }
-        }
 
         stage('Build') {
             steps {
