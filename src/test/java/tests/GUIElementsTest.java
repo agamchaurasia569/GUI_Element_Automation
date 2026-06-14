@@ -88,7 +88,7 @@ public class GUIElementsTest extends BaseTest {
 		// File Upload
 		WebElement upload = driver.findElement(By.id("singleFileInput"));
 
-		File file = new File("sample.text");
+		File file = new File("sample.txt");
 
 		System.out.println("File Path: " + file.getAbsolutePath());
 		System.out.println("File Exists: " + file.exists());
